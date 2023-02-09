@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="sbi.css">
+</head>
+
+<body>
+    <div class="bg-container p-5">
+        <h1 class="heading">
+            <img src="https://mews.in/wp-content/uploads/2021/05/SBI-LOGO-HISTORY.jpg" class="img"> SBI Bank
+        </h1>
+        <h1 class="heading4 pr-3">personal Information</h1>
+        <form id="addUserForm">
+            <div class="mb-2">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+                <p id="nameErrMsg" class="heading3"></p>
+            </div>
+            <div class="mb-2">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email">
+                <p id="emailErrMsg" class="heading3"></p>
+            </div>
+            <div class="mb-3">
+                <label for="status">Working Status</label>
+                <select id="status" class="form-control">
+                    <option value="Active" selected>Active</option>
+                    <option value="Inactive">Inactive</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="status">Choose a Occupation</label>
+                <select id="status" class="form-control">
+                    <option value="Active" selected>None</option>
+                    <option value="Inactive">Collector</option>
+                    <option value="Active">Cricle Inspector</option>
+                    <option value="Inactive">Sub Inspector</option>
+                    <option value="Active">Mro</option>
+                    <option value="Inactive">Doctor</option>
+                    <option value="Active">Tax Officer</option>
+                    <option value="Inactive">Police Conistable & Homeguard</option>
+                    <option value="Active">Ambulance Empoloyes</option>
+                    <option value="Inactive">Privit Empoloyes</option>
+                    <option value="Active">Framers</option>
+                    <option value="Inactive">None this above</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="status">Salary</label>
+                <select id="status" class="form-control">
+                    <option value="Active" selected>None </option>
+                    <option value="Active">1Lk-2Lk</option>
+                    <option value="Inactive">2.50Lk -5.50Lk</option>
+                    <option value="Active">5.50Lk-7.50Lk</option>
+                    <option value="Inactive">7.50Lk-10.50Lk</option>
+                    <option value="Active">10Lk-14Lk</option>
+                    <option value="Inactive">14Lk-above</option>
+                </select>
+
+                <div class="mb-3">
+                    <h1 class="heading1">Gender</h1>
+                    <input type="radio" id="genderMale" value="male" name="gender">
+                    <label for="gendermale">Male</label>
+                    <input type="radio" id="genderFemale" value="female" name="gender" class="ml-2">
+                    <label for="genderFemale">Female</label>
+                    <input type="radio" id="genderTrans" value="trans" name="gender" class="ml-2">
+                    <label for="genderTrans">Trans</label>
+                </div>
+
+                <h1 class="heading4 pr-3">Other Information</h1>
+                <div class="mb-2">
+                    <label for="name">Contact</label>
+                    <input type="text" class="form-control" id="name">
+                    <p id="nameErrMsg" class="heading3"></p>
+                </div>
+                <div class="mb-2">
+                    <label for="email">Adress</label>
+                    <input type="text" class="form-control" id="email">
+                    <p id="emailErrMsg" class="heading3"></p>
+                </div>
+                <div class="mb-3">
+                    <label for="status">Realtion</label>
+                    <select id="status" class="form-control">
+                        <option value="Active" selected>None</option>
+                        <option value="Inactive">Wife/Husaband</option>
+                        <option value="Active">Mother/Father</option>
+                        <option value="Inactive">Other</option>
+
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="status">City</label>
+                    <select id="status" class="form-control">
+                        <option value="Active" selected>None</option>
+                        <option value="Inactive">Atmakur</option>
+                        <option value="Active">Adakal</option>
+                        <option value="Inactive">Chityala</option>
+                        <option value="Active">Ganapur</option>
+                        <option value="Inactive">Gadwal</option>
+                        <option value="Active">Kollapur</option>
+                        <option value="Inactive">Khothakota</option>
+                        <option value="Active">Pebbair</option>
+                        <option value="Inactive">Peddamanddadi</option>
+                        <option value="Active">veepanagandla</option>
+                        <option value="Inactive">Wanaparthy</option>
+                        <option value="Active">Wanaparthy Rural</option>
+                        <option value="Inactive">None this above</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="status">Pincode</label>
+                    <select id="status" class="form-control">
+                        <option value="Active" selected>None</option>
+                        <option value="Active">08504-Atk</option>
+                        <option value="Inactive">50938-Adkl</option>
+                        <option value="Active">509206-Ctyl</option>
+                        <option value="Inactive">509208-Gpr</option>
+                        <option value="Active">509128-Gdwl</option>
+                        <option value="Inactive">08501-Klpr</option>
+                        <option value="Active">509381-Kkt</option>
+                        <option value="Inactive">509106-Pmd</option>
+                        <option value="Active">509104-Pbr</option>
+                        <option value="Inactive">509105-vvp</option>
+                        <option value="Active">509103-Wnp</option>
+                        <option value="Inactive">None this above</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="status">Which Type of Loan </label>
+                    <select id="status" class="form-control">
+                        <option value="Active" selected>None</option>
+                        <option value="Inactive">Car Loan</option>
+                        <option value="Active">Housing Loan </option>
+                        <option value="Inactive">Bike Loan</option>
+                        <option value="Inactive">Crop Loan</option>
+                        <option value="Inactive">Indastrial Loan</option>
+                        <option value="Inactive">Agricluter Loan</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary m-2">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
