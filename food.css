@@ -1,67 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.tickmark {
-    color: white;
-    font-size: 10px;
-}
-
-.img2 {
-    font-size: 13px;
-    padding: 10px;
-}
-
-.img {
-    width: 40px;
-    height: 50px;
-    padding: 10px;
-}
-
-.offers5 {
-    color: #323f4b;
-    font-style: italic;
-    font-weight: 600;
-
-}
-
-.offers3-dis {
-    color: #a0bf17;
-    font-style: italic;
-    font-weight: 800;
-    font-size: 17px;
-    text-decoration: underline;
-
-}
-
-
-.railway-logo {
-    height: 200px;
-    width: 200px;
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-}
-
-
-
-.payment-section-description2 {
-    font-size: 28px;
-    font-family: "Roboto";
-    font-weight: bold;
-    padding: 5px;
-
-}
-
-.rail-logo {
+.food-munch-logo {
     width: 80px;
     height: 70px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
     color: #323f4b;
     font-family: "Roboto";
 }
@@ -71,63 +20,44 @@
     font-family: "Roboto";
 }
 
-#navItem2 {
-    color: #323f4b;
-    font-family: "Roboto";
-    font-weight: bold;
-}
-
 #navItem4 {
     color: #323f4b;
     font-family: "Roboto";
 }
 
-#navItem5 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-
-
-#navItem6 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-.train-bg-container {
-    background-image: url("https://images.railyatri.in/ry_images_prod/Homepage-BannerNew-1592207921.jpg");
+.banner-section-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
     height: 100vh;
     background-size: cover;
 }
 
-.train-heading {
+.banner-heading {
     color: white;
     font-family: "Roboto";
     font-size: 45px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
-.train-heading2 {
+.banner-caption {
     color: #f5f7fa;
     font-family: "Roboto";
     font-size: 24px;
     font-weight: 300;
 }
 
-.button {
+.custom-button {
     color: white;
-    background-color: #7a3e10;
+    background-color: #d0b200;
     width: 130px;
     height: 45px;
     border-width: 0;
     border-radius: 8px;
     margin-right: 10px;
-    border-style: double;
 }
 
-.button2 {
+.custom-outline-button {
     color: #d0b200;
-    background-color: black;
+    background-color: transparent;
     width: 130px;
     height: 45px;
     border-style: solid;
@@ -140,14 +70,14 @@
     background-color: #f9fbfe;
 }
 
-.train-sub-heading {
+.wcu-section-heading {
     color: #183b56;
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
 }
 
-.roundtrip-description {
+.wcu-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
@@ -160,22 +90,14 @@
     border-width: 1px;
     border-color: #e5eaf4;
     border-radius: 16px;
-    padding: 5px;
-    margin: 10px;
-    box-shadow: 10px 10px 5px 8px lightblue;
-
 }
 
-.total-trains-imgs {
-    width: 200px;
-    height: 160px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
 }
 
-.tains-sub-heading {
+.wcu-card-title {
     color: #323f4b;
     font-family: "Roboto";
     font-size: 22px;
@@ -196,7 +118,6 @@
 
 .explore-menu-section {
     background-color: white;
-
 }
 
 .menu-section-heading {
@@ -227,29 +148,14 @@
 
 .menu-item-card {
     border-radius: 16px;
-    background-color: white;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #e5eaf4;
-    padding: 4px;
-    margin: 8px;
-    box-shadow: 10px 10px 5px 8px lightblue;
-
 }
 
-.custmor-review-section {
-    background-color: #d7e0de;
+.healthy-food-section {
+    background-color: #f9fbfe;
 }
 
-
-.review-img {
-
-    width: 300px;
-    height: 200px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.healthy-food-section-img {
+    width: 270px;
 }
 
 .healthy-food-section-heading {
@@ -273,7 +179,7 @@
     width: 270px;
 }
 
-.payment-section-heading {
+.delivery-and-payment-section-heading {
     color: #183b56;
     font-family: "Roboto";
     font-size: 28px;
@@ -318,11 +224,6 @@
     background-color: white;
 }
 
-.custom-button {
-    border: 2px solid red;
-    border-radius: 10px;
-}
-
 .follow-us-section-heading {
     text-align: center;
     color: #183b56;
@@ -332,10 +233,10 @@
 }
 
 .follow-us-icon-container {
-    background-color: #060a0f;
-    width: 89px;
-    height: 93px;
-    border-radius: 50px;
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
     margin: 15px;
     padding-top: 22px;
     padding-bottom: 14px;
@@ -348,13 +249,8 @@
     font-size: 35px;
 }
 
-.offers2 {
-    color: lightblue;
-    font-size: 18px;
-}
-
-.ending-section {
-    background-image: linear-gradient(#801a11, #080705);
+.footer-section {
+    background-color: #0d2436;
 }
 
 .footer-section-mail-id {
