@@ -1,0 +1,103 @@
+.bg-container{
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-psd/3d-rendering-woman-wall_23-2149294137.jpg?w=1060&t=st=1677013998~exp=1677014598~hmac=7a202e89a1256d23b158738f314c4adcedca8b2369e15969489bd68c2748e36b");
+    height: 105vh;
+    background-size: cover;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.para{
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    
+}
+.btn{
+    padding: 3px;
+    margin: 10px;
+    height: 28px;
+    color: white;
+    border-radius: 7px;
+    width: 270px;
+    background-color: royalblue;
+    padding: 5px;
+    font-weight: bold;
+}
+.heading{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.box{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.para2{
+    color: rgb(12, 12, 17);
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.have{
+    font-size: small;
+}
+.login{
+    color: rgb(49, 69, 4);
+    font-size: medium;
+}
+
+.btns{
+    height: 60px;
+    margin-top: 40px;
+    background-color: blueviolet;
+    width:900px;
+    border-radius: 10px;
+
+}
+.loginss{
+    padding: 3px;
+    margin: 10px;
+    height: 28px;
+    color: white;
+    border-radius: 7px;
+    width: 270px;
+    background-color: royalblue;
+    padding: 5px;
+    font-weight: bold;
+
+}
+.footer {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    color: #666;
+    background: #510c0c;
+    width: 120%;
+    
+}
+.ram{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.crea{
+    color: white;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.thanks{
+    color: rgb(223, 220, 232);
+}
+.footer-container{
+    padding-right: 20px;
+    padding-right: 100px;
+}
